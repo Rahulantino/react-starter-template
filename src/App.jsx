@@ -1,12 +1,12 @@
 import "./App.css";
-import { useFetchPostsQuery } from "./services/GetPostsAPI/getPostsAPI";
+import { useGetPostsQuery } from "./services/GetPostsAPI/getPostsAPI";
 
 function App() {
-const {data} =  useFetchPostsQuery();
-console.log(data,"data");
+  const data = useGetPostsQuery();
+  console.log(data);
   return (
     <>
-      <h2>Hello!</h2>
+      <h2>RTK Starter Template</h2>
     </>
   );
 }
