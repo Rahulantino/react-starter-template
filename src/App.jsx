@@ -1,5 +1,5 @@
-import React from "react";
 import BasicTable from "./common/BasicTable";
+import "./App.css";
 
 const App = () => {
   return (
