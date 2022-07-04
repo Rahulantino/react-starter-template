@@ -8,11 +8,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@reduxjs/toolkit": "^1.8.3",
+    "@tanstack/react-table": "^8.1.3",
     "axios": "^0.27.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-redux": "^8.0.2"
+    "react-error-overlay": "^6.0.11",
+    "react-redux": "^8.0.2",
+    "react-responsive-modal": "^6.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
