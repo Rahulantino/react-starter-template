@@ -88,3 +88,4 @@ const BasicTable = () => {
 };
 
 export default BasicTable;
+// Basic Table
